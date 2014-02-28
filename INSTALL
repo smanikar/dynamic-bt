@@ -1,0 +1,16 @@
+Here is a 3 step install process:
+
+1) Create an appropriate directory and extract the files 
+   from HDTrans' source tarball
+
+2) make
+
+3) export HDTRANS_SODIR=`pwd`
+   This environment variable is needed by the HDTrans script.
+   You may consider adding:
+       export HDTRANS_SODIR=<current directory>
+   to your .bash_profile file.
+
+To run a program under HDTrans' control,
+
+HDTrans <program name>

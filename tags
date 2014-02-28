@@ -1,0 +1,856 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDR_C	decode.h	225;"	d
+ADDR_D	decode.h	226;"	d
+ADDR_E	decode.h	212;"	d
+ADDR_FREG	decode.h	222;"	d
+ADDR_G	decode.h	213;"	d
+ADDR_R	decode.h	224;"	d
+ADDR_T	decode.h	227;"	d
+ADDR_direct	decode.h	220;"	d
+ADDR_ds	decode.h	216;"	d
+ADDR_es	decode.h	215;"	d
+ADDR_imm	decode.h	214;"	d
+ADDR_implied_reg	decode.h	211;"	d
+ADDR_jmp	decode.h	217;"	d
+ADDR_none	decode.h	210;"	d
+ADDR_offset	decode.h	221;"	d
+ADDR_seg	decode.h	218;"	d
+ADDR_seg_reg	decode.h	219;"	d
+AH	decode-table.c	118;"	d	file:
+AL	decode-table.c	119;"	d	file:
+AO	decode-table.c	206;"	d	file:
+AX	decode-table.c	204;"	d	file:
+Ap	decode-table.c	154;"	d	file:
+Aux1	emit.c	108;"	d	file:
+Aux2	emit.c	109;"	d	file:
+BBCACHE_SIZE	machine.h	43;"	d
+BH	decode-table.c	120;"	d	file:
+BL	decode-table.c	121;"	d	file:
+BORDER_END	xlcore.c	244;"	d	file:
+BORDER_START	xlcore.c	236;"	d	file:
+BREG	disasm.c	131;"	d	file:
+BUILD_BBS_FOR_JCOND_TRACE	switches.h	60;"	d
+BYTES_NEEDED_AT_THE_END	xlcore.c	899;"	d	file:
+CALL_HASH_BUCKET	machine.h	84;"	d
+CALL_HASH_MASK	machine.h	83;"	d
+CALL_RET_OPT	switches.h	54;"	d
+CALL_TABLE_SIZE	machine.h	79;"	d
+CC	Makefile	/^CC=$(CCACHE) gcc $/;"	m
+CCACHE	Makefile	/^CCACHE=\/usr\/bin\/ccache$/;"	m
+CH	decode-table.c	122;"	d	file:
+CL	decode-table.c	123;"	d	file:
+CNBUCKETS	machine.h	69;"	d
+CNBUCKETS	machine.h	71;"	d
+CND_DEBUG	debug.h	83;"	d
+CODER_OBJECTS	Makefile	/^CODER_OBJECTS= decode-init.o decode-table.o decode.o emit.o $/;"	m
+COLD_PROC_ENTRY	machine.h	49;"	d
+CONST_TABLE	decode.h	41;"	d
+CPLUS	Makefile	/^CPLUS=$(CCACHE) g++$/;"	m
+CS	decode-table.c	147;"	d	file:
+CSIEVE_HASH_BUCKET	machine.h	75;"	d
+CSIEVE_HASH_MASK	machine.h	74;"	d
+Cd	decode-table.c	181;"	d	file:
+DBG	debug.h	/^FILE *DBG;$/;"	v
+DEBUG	debug.h	84;"	d
+DEBUG_H	debug.h	2;"	d
+DECODE_H	decode.h	2;"	d
+DF_ADDRSZ_PREFIX	decode.h	67;"	d
+DF_Ap	decode.h	60;"	d
+DF_BINARY	decode.h	64;"	d
+DF_BRANCH	decode.h	72;"	d
+DF_DIRECTION	decode.h	65;"	d
+DF_FLOAT	decode.h	62;"	d
+DF_GROUP	decode.h	56;"	d
+DF_Ib	decode.h	46;"	d
+DF_Iv	decode.h	48;"	d
+DF_Iw	decode.h	59;"	d
+DF_Jb	decode.h	47;"	d
+DF_Jv	decode.h	49;"	d
+DF_MMX_SSE	decode.h	71;"	d
+DF_MODRM	decode.h	45;"	d
+DF_NONE	decode.h	44;"	d
+DF_ONE_MORE_LEVEL	decode.h	63;"	d
+DF_OPSZ_PREFIX	decode.h	69;"	d
+DF_Ob	decode.h	51;"	d
+DF_Ov	decode.h	52;"	d
+DF_PREFIX	decode.h	53;"	d
+DF_TABLE	decode.h	55;"	d
+DF_UNDEFINED	decode.h	54;"	d
+DF_r8	decode.h	57;"	d
+DF_rel	decode.h	50;"	d
+DF_rm8	decode.h	58;"	d
+DH	decode-table.c	124;"	d	file:
+DL	decode-table.c	125;"	d	file:
+DO_DYNAMORIO_PERF	perf.c	46;"	d	file:
+DO_NULGRIND_PERF	perf.c	47;"	d	file:
+DO_PIN_PERF	perf.c	48;"	d	file:
+DREG	disasm.c	130;"	d	file:
+DS	decode-table.c	148;"	d	file:
+DSFL_GROUP1_PREFIX	decode.h	98;"	d
+DSFL_GROUP2_PREFIX	decode.h	99;"	d
+DSFL_GROUP3_PREFIX	decode.h	100;"	d
+DSFL_GROUP4_PREFIX	decode.h	101;"	d
+DX	decode-table.c	126;"	d	file:
+Dd	decode-table.c	182;"	d	file:
+Do_decode_init	decode-init.c	45;"	d	file:
+EAX	decode-table.c	138;"	d	file:
+EBP	decode-table.c	139;"	d	file:
+EBX	decode-table.c	140;"	d	file:
+ECX	decode-table.c	141;"	d	file:
+EDI	decode-table.c	142;"	d	file:
+EDX	decode-table.c	143;"	d	file:
+EMIT	decode-table.c	201;"	d	file:
+EMIT_H	emit.h	2;"	d
+EMIT_INT80_SYSCALL	emit.h	59;"	d
+EMIT_SUPPORT_H	emit-support.h	2;"	d
+EMIT_SYSENTER_SYSCALL	emit.h	60;"	d
+ENABLE_DUMP_FUNCTION	emit.c	112;"	d	file:
+ENTRY_POINT	xlcore.h	65;"	d
+ES	decode-table.c	149;"	d	file:
+ESI	decode-table.c	144;"	d	file:
+ESP	decode-table.c	145;"	d	file:
+EXIT_HANDLING_NECESSARY	emit.c	745;"	d	file:
+Eb	decode-table.c	155;"	d	file:
+Ep	decode-table.c	157;"	d	file:
+Ev	decode-table.c	156;"	d	file:
+Ew	decode-table.c	158;"	d	file:
+FLOAT	decode-table.c	198;"	d	file:
+FREG	decode-table.c	190;"	d	file:
+FS	decode-table.c	150;"	d	file:
+FTABLE	decode-table.c	199;"	d	file:
+GP_REG_EAX	machine.h	214;"	d
+GP_REG_EBP	machine.h	219;"	d
+GP_REG_EBX	machine.h	217;"	d
+GP_REG_ECX	machine.h	215;"	d
+GP_REG_EDI	machine.h	221;"	d
+GP_REG_EDX	machine.h	216;"	d
+GP_REG_ESI	machine.h	220;"	d
+GP_REG_ESP	machine.h	218;"	d
+GROUP	decode-table.c	196;"	d	file:
+GS	decode-table.c	151;"	d	file:
+Gb	decode-table.c	159;"	d	file:
+Group1_Prefix	decode.h	/^  unsigned char Group1_Prefix;$/;"	m	struct:decode_s
+Group2_Prefix	decode.h	/^  unsigned char Group2_Prefix;$/;"	m	struct:decode_s
+Group3_Prefix	decode.h	/^  unsigned char Group3_Prefix;$/;"	m	struct:decode_s
+Group4_Prefix	decode.h	/^  unsigned char Group4_Prefix;$/;"	m	struct:decode_s
+Gv	decode-table.c	160;"	d	file:
+Gw	decode-table.c	161;"	d	file:
+IA32	decode-tester.c	/^machine_t IA32;$/;"	v
+INLINE	emit-support.c	44;"	d	file:
+INLINE	emit.c	60;"	d	file:
+INLINE	emit.c	63;"	d	file:
+INLINE	signals.c	62;"	d	file:
+INLINE	xlcore.c	59;"	d	file:
+INLINE	xlcore.c	61;"	d	file:
+ISTREAM_FAULT	machine.h	394;"	d
+IS_END_OF_TRACE	machine.h	134;"	d
+IS_HAND_CONSTRUCTED	machine.h	136;"	d
+IS_IFAULT	machine.h	397;"	d
+IS_IFAULT	machine.h	399;"	d
+IS_START_OF_TRACE	machine.h	133;"	d
+Ib	decode-table.c	162;"	d	file:
+Iv	decode-table.c	163;"	d	file:
+Iw	decode-table.c	164;"	d	file:
+JJ	decode-table.c	208;"	d	file:
+Jb	decode-table.c	165;"	d	file:
+Jv	decode-table.c	166;"	d	file:
+LDFLAGS	Makefile	/^LDFLAGS= -shared -Wl,-z,nodelete,-z,initfirst -Wl,--soname=vdebug.so.0$/;"	m
+LOOKUP_TABLE_SIZE	machine.h	46;"	d
+M	decode-table.c	167;"	d	file:
+M	signals.h	/^  struct machine_s *M;$/;"	m	struct:Mlist_s	typeref:struct:Mlist_s::machine_s
+MACHINE_H	machine.h	2;"	d
+MAC_FLAGS	Makefile	/^MAC_FLAGS=$/;"	m
+MALLOC	util.h	37;"	d
+MALLOCV	util.h	38;"	d
+MARKED	machine.h	138;"	d
+MAX_BBS	machine.h	44;"	d
+MAX_PATCH_BLOCK_BYTES	xlcore.c	893;"	d	file:
+MAX_TRACE_INSTRS	machine.h	47;"	d
+MFLD	machine.h	435;"	d
+MM	xlcore.c	/^machine_t *MM;$/;"	v
+MMX_SSE_SSE2	decode-table.c	212;"	d	file:
+MMX_SSE_SSE2_Ib	decode-table.c	213;"	d	file:
+MMX_SSE_SSE2_None	decode-table.c	214;"	d	file:
+MODE	decode.h	166;"	d
+MODE	decode.h	168;"	d
+MODETYPE	decode.h	74;"	d
+MODIFIES_CF	decode.h	250;"	d
+MODIFIES_FLAGS	decode.h	246;"	d
+MODIFIES_OSZAPF	decode.h	248;"	d
+MORE_FREE_PATCH_BLOCKS	xlcore.c	902;"	d	file:
+MREG	machine.h	436;"	d
+Ma	decode-table.c	168;"	d	file:
+Mb	decode-table.c	169;"	d	file:
+Md	decode-table.c	170;"	d	file:
+Mlist	signals.c	/^Mlist_t *Mlist;$/;"	v
+Mlist_mutex	signals.c	/^pthread_mutex_t Mlist_mutex;$/;"	v
+Mlist_s	signals.h	/^struct Mlist_s {$/;"	s
+Mlist_t	signals.h	/^typedef struct Mlist_s Mlist_t;$/;"	t	typeref:struct:Mlist_s
+Mnode	machine.h	/^  Mlist_t Mnode;$/;"	m	struct:pt_state
+Mp	decode-table.c	171;"	d	file:
+Mq	decode-table.c	172;"	d	file:
+Ms	decode-table.c	173;"	d	file:
+Mw	decode-table.c	174;"	d	file:
+Mx	decode-table.c	175;"	d	file:
+My	decode-table.c	176;"	d	file:
+Mz	decode-table.c	177;"	d	file:
+NBUCKETS	machine.h	54;"	d
+NBUCKETS	machine.h	56;"	d
+NDF	decode.h	240;"	d
+NEEDS_RELOC	machine.h	135;"	d
+NEW_CFLAGS	Makefile	/^NEW_CFLAGS= -fpic -O3 -Winline -finline-limit=30000 -DINLINE_EMITTERS $(MAC_FLAGS)$/;"	m
+NEW_OBJECTS	Makefile	/^NEW_OBJECTS= UserEntry.o decode.o intel-decode.o emit.o$/;"	m
+NF	decode.h	231;"	d
+NONE	decode-table.c	192;"	d	file:
+NOT_YET_TRANSLATED	machine.h	50;"	d
+NSIGNALS	signals.h	46;"	d
+OLD_CFLAGS	Makefile	/^OLD_CFLAGS= -fpic -O3 -funit-at-a-time $(MAC_FLAGS)$/;"	m
+OLD_OBJECTS	Makefile	/^OLD_OBJECTS= UserEntry.o decode.o intel-decode.o emit.o emit-support.o$/;"	m
+OPSTATE_ADDR16	decode.h	106;"	d
+OPSTATE_ADDR32	decode.h	103;"	d
+OPSTATE_DATA16	decode.h	107;"	d
+OPSTATE_DATA32	decode.h	104;"	d
+OP_MAXARG	decode.h	81;"	d
+Ob	decode-table.c	178;"	d	file:
+OpArgument	decode.h	/^} OpArgument;$/;"	t	typeref:struct:__anon1
+OpCode	decode.h	/^} OpCode __attribute__ ((aligned (32)));$/;"	t	typeref:struct:__anon2
+Ov	decode-table.c	179;"	d	file:
+PATCH_ARRAY_LEN	machine.h	48;"	d
+PATCH_BLOCK_LEN	xlcore.c	892;"	d	file:
+PERC	util.h	39;"	d
+PERF_OBJECTS	Makefile	/^PERF_OBJECTS= perf.o$/;"	m
+PREFIX	decode-table.c	194;"	d	file:
+PREFIX_ADDRSZ	machine.h	235;"	d
+PREFIX_CS	machine.h	227;"	d
+PREFIX_DS	machine.h	228;"	d
+PREFIX_ES	machine.h	229;"	d
+PREFIX_FS	machine.h	230;"	d
+PREFIX_GS	machine.h	231;"	d
+PREFIX_LOCK	machine.h	225;"	d
+PREFIX_OPSZ	machine.h	234;"	d
+PREFIX_REPNZ	machine.h	224;"	d
+PREFIX_REPZ	machine.h	223;"	d
+PREFIX_SS	machine.h	232;"	d
+RAOF	decode.h	234;"	d
+RCF	decode.h	232;"	d
+READ_IN_NEXT_BYTE	decode.c	50;"	d	file:
+READ_IN_NEXT_LONG	decode.c	58;"	d	file:
+READ_IN_NEXT_WORD	decode.c	54;"	d	file:
+RESERVED	decode-table.c	195;"	d	file:
+RF	decode.h	236;"	d
+ROOM_FOR_BB	xlcore.c	901;"	d	file:
+RWCF	decode.h	238;"	d
+RWF	decode.h	239;"	d
+Rd	decode-table.c	180;"	d	file:
+SDISASM_H	sdisasm.h	2;"	d
+SEPARATE_SIEVES	switches.h	71;"	d
+SGEN_CFLAGS	Makefile	/^SGEN_CFLAGS= -fpic -DSTATIC_PASS -O3 -g -lm  $(MAC_FLAGS)$/;"	m
+SGEN_OBJECTS	Makefile	/^SGEN_OBJECTS= decode.o emit.o emit-support.o disasm.o machine.o $/;"	m
+SIEVE_HASH_BUCKET	machine.h	61;"	d
+SIEVE_HASH_BUCKET	machine.h	64;"	d
+SIEVE_HASH_MASK	machine.h	60;"	d
+SIEVE_HASH_MASK	machine.h	63;"	d
+SIEVE_WITHOUT_PPF	switches.h	67;"	d
+SIGNALS	switches.h	47;"	d
+SIGNALS_H	signals.h	2;"	d
+SIGQ_DEPTH	signals.h	124;"	d
+SMALL_HASH	switches.h	75;"	d
+SOURCES_CF	decode.h	249;"	d
+SOURCES_FLAGS	decode.h	245;"	d
+SOURCES_OSZAPF	decode.h	247;"	d
+SPECIAL_BB	xlcore.c	689;"	d	file:
+SPECIAL_BB	xlcore.c	697;"	d	file:
+SREG	disasm.c	132;"	d	file:
+SS	decode-table.c	152;"	d	file:
+SWITCHES_H	switches.h	3;"	d
+Sw	decode-table.c	184;"	d	file:
+TABLE	decode-table.c	197;"	d	file:
+TARGETS	Makefile	/^TARGETS= ovdebug.so nvdebug.so$/;"	m
+TARGET_CALLED	xlcore.h	64;"	d
+TESTER_OBJECTS	Makefile	/^TESTER_OBJECTS= UserEntry.o decode.o intel-decode.o emit.o$/;"	m
+THIRTY_TWO_BIT_INSTR	xlcore.h	59;"	d
+THREADED_XLATE	switches.h	44;"	d
+Td	decode-table.c	183;"	d	file:
+UF	decode.h	241;"	d
+USE_SIEVE	switches.h	63;"	d
+UTIL_H	util.h	2;"	d
+UserEntry	UserEntry.s	/^UserEntry:$/;"	l
+VREG	disasm.c	129;"	d	file:
+WAOF	decode.h	235;"	d
+WCF	decode.h	233;"	d
+WF	decode.h	237;"	d
+WPF	decode.h	242;"	d
+XLCORE_H	xlcore.h	36;"	d
+XO	decode-table.c	205;"	d	file:
+XX	decode-table.c	203;"	d	file:
+Xb	decode-table.c	185;"	d	file:
+Xv	decode-table.c	186;"	d	file:
+Yb	decode-table.c	187;"	d	file:
+Yv	decode-table.c	188;"	d	file:
+_NSIG_WORDS	signals.h	47;"	d
+__USE_GNU	signals.h	41;"	d
+__USE_GNU	signals.h	43;"	d
+_sig_names	sig-names.c	/^const char* const _sig_names [] = {  $/;"	v
+_syscall_names	syscall-names.c	/^const char* const _syscall_names[] = {$/;"	v
+addToMlist	signals.c	/^addToMlist(Mlist_t *node)$/;"	f
+ainfo	decode.h	/^  MODETYPE ainfo;		\/* mode-specific info *\/$/;"	m	struct:__anon1
+allSignals	signals.c	/^sigset_t allSignals;$/;"	v
+amode	decode.h	/^  MODETYPE amode;		\/* addressing mode *\/$/;"	m	struct:__anon1
+args	decode.h	/^  OpArgument args[OP_MAXARG];$/;"	m	struct:__anon2
+at	disasm-driver.c	/^  unsigned long at;$/;"	m	struct:patch_st	file:
+at	machine.h	/^  unsigned char *at;$/;"	m	struct:patch_entry
+attr	decode.h	/^  unsigned attr;$/;"	m	struct:decode_s
+attr	decode.h	/^  unsigned long attr;$/;"	m	struct:__anon2
+aux	machine.h	/^  k_sigaction aux;$/;"	m	struct:sa_table_s
+b	decode.h	/^  unsigned long b;$/;"	m	struct:decode_s
+b_mode	decode.h	172;"	d
+backpatch_and_dispatch_bb	machine.h	/^  unsigned char *backpatch_and_dispatch_bb;$/;"	m	struct:machine_s
+backpatch_block	machine.h	/^  unsigned char *backpatch_block;$/;"	m	struct:machine_s
+bad_dispatch	util.c	/^bad_dispatch()$/;"	f
+base	machine.h	/^    unsigned char base : 3;$/;"	m	struct:sib_union::__anon4
+bbCache	machine.h	/^  unsigned char bbCache[BBCACHE_SIZE];	\/* Basic-block Translated Code Cache	*\/$/;"	m	struct:machine_s
+bbCache_main	machine.h	/^  unsigned char *bbCache_main;  \/* The point beyond which the actual bb's get emitted *\/$/;"	m	struct:machine_s
+bbCache_size	emit.h	/^  unsigned long bbCache_size;$/;"	m	struct:bb_dump_header
+bbLimit	machine.h	/^  const unsigned char *bbLimit; \/* BB cache limit 					*\/$/;"	m	struct:machine_s
+bbOut	machine.h	/^  unsigned char *bbOut;	        \/* next output position in BB Code cache 	*\/$/;"	m	struct:machine_s
+bb_cache_init	xlcore.c	/^bb_cache_init(machine_t *M)$/;"	f	file:
+bb_cache_reinit	xlcore.c	/^bb_cache_reinit(machine_t *M)$/;"	f	file:
+bb_cnt	machine.h	/^  unsigned long bb_cnt;$/;"	m	struct:pt_state
+bb_dump_header	emit.h	/^struct bb_dump_header {$/;"	s
+bb_dump_header	emit.h	/^typedef struct bb_dump_header bb_dump_header;$/;"	t	typeref:struct:bb_dump_header
+bb_emit_16_bit_save_reg_to	emit-inline.c	/^bb_emit_16_bit_save_reg_to(machine_t *M, unsigned long whichReg, unsigned long addr)$/;"	f
+bb_emit_byte	emit-inline.c	/^bb_emit_byte(machine_t *M, unsigned char c)$/;"	f
+bb_emit_call	emit-inline.c	/^bb_emit_call(machine_t *M, unsigned char *dest)$/;"	f
+bb_emit_call_back	emit-inline.c	/^bb_emit_call_back(machine_t *M, unsigned long fpp, unsigned long arg)$/;"	f
+bb_emit_call_back3	emit-inline.c	/^bb_emit_call_back3(machine_t *M, unsigned long fpp, $/;"	f
+bb_emit_get_2_bytes_into_M	emit-inline.c	/^bb_emit_get_2_bytes_into_M(machine_t *M, decode_t *d, unsigned long addr)$/;"	f
+bb_emit_get_4_bytes_into_M	emit-inline.c	/^bb_emit_get_4_bytes_into_M(machine_t *M, decode_t * d, unsigned long addr)$/;"	f
+bb_emit_inc	emit-inline.c	/^bb_emit_inc(machine_t *M, unsigned long addr) \/\/ [len 8b]$/;"	f
+bb_emit_jump	emit-inline.c	/^bb_emit_jump(machine_t *M, unsigned char *dest)$/;"	f
+bb_emit_lea_inc	emit-inline.c	/^bb_emit_lea_inc(machine_t *M, unsigned long addr)$/;"	f
+bb_emit_lw_inc	emit-inline.c	/^bb_emit_lw_inc(machine_t *M, unsigned long addr) \/\/ [len 8b]$/;"	f
+bb_emit_nop_inc	emit-inline.c	/^bb_emit_nop_inc(machine_t *M, unsigned long addr) \/\/ [len 8b]$/;"	f
+bb_emit_push_rm	emit-inline.c	/^bb_emit_push_rm(machine_t *M, decode_t * d)$/;"	f
+bb_emit_restore_reg	emit-inline.c	/^bb_emit_restore_reg(machine_t *M, unsigned long whichReg)$/;"	f
+bb_emit_restore_reg_from	emit-inline.c	/^bb_emit_restore_reg_from(machine_t *M, unsigned long whichReg, unsigned long addr)$/;"	f
+bb_emit_save_reg	emit-inline.c	/^bb_emit_save_reg(machine_t *M, unsigned long whichReg)$/;"	f
+bb_emit_save_reg_to	emit-inline.c	/^bb_emit_save_reg_to(machine_t *M, unsigned long whichReg, unsigned long addr)$/;"	f
+bb_emit_store_immediate_to	emit-inline.c	/^bb_emit_store_immediate_to(machine_t *M, unsigned long imm, unsigned long dest)$/;"	f
+bb_emit_w16	emit-inline.c	/^bb_emit_w16(machine_t *M, unsigned long ul)$/;"	f
+bb_emit_w32	emit-inline.c	/^bb_emit_w32(machine_t *M, unsigned long ul)$/;"	f
+bb_entry	machine.h	/^struct bb_entry {$/;"	s
+bb_entry	machine.h	/^typedef struct bb_entry bb_entry;$/;"	t	typeref:struct:bb_entry
+bb_entry_nodes	machine.h	/^  bb_entry bb_entry_nodes[MAX_BBS];$/;"	m	struct:machine_s
+bb_header	machine.h	/^struct bb_header {$/;"	s
+bb_header	machine.h	/^typedef struct bb_header bb_header;$/;"	t	typeref:struct:bb_header
+bb_len	sdisasm.h	/^  unsigned long bb_len;$/;"	m	struct:bblist
+bb_link	machine.h	/^struct bb_link {$/;"	s
+bb_link	machine.h	/^typedef struct bb_link bb_link;$/;"	t	typeref:struct:bb_link
+bb_setup_backpatch_and_dispatch_bb	xlcore.c	/^bb_setup_backpatch_and_dispatch_bb (machine_t *M)$/;"	f
+bb_setup_call_calls_fast_dispatch_bb	xlcore.c	/^bb_setup_call_calls_fast_dispatch_bb(machine_t *M)$/;"	f
+bb_setup_cfast_dispatch_bb	chtable.c	/^bb_setup_cfast_dispatch_bb(machine_t *M)$/;"	f
+bb_setup_chash_table	chtable.c	/^bb_setup_chash_table(machine_t *M)$/;"	f
+bb_setup_child_startup	emit.c	/^  bb_setup_child_startup(machine_t *M) \/\/[len = 22]$/;"	f
+bb_setup_cslow_dispatch_bb	chtable.c	/^bb_setup_cslow_dispatch_bb(machine_t *M)$/;"	f
+bb_setup_fast_dispatch_bb	xlcore.c	/^bb_setup_fast_dispatch_bb(machine_t *M)$/;"	f
+bb_setup_hash_table	xlcore.c	/^bb_setup_hash_table(machine_t *M)$/;"	f
+bb_setup_post_xlate	xlcore.c	/^bb_setup_post_xlate(machine_t *M) \/\/ [len = 30b]$/;"	f
+bb_setup_ret_calls_fast_dispatch_bb	xlcore.c	/^bb_setup_ret_calls_fast_dispatch_bb(machine_t *M)$/;"	f
+bb_setup_slow_dispatch_bb	xlcore.c	/^bb_setup_slow_dispatch_bb(machine_t *M)$/;"	f
+bb_setup_startup_slow_dispatch_bb	xlcore.c	/^bb_setup_startup_slow_dispatch_bb(machine_t *M)$/;"	f
+bb_start	sdisasm.h	/^  unsigned long bb_start;$/;"	m	struct:bblist
+bbftmap	sdisasm.h	/^struct bbftmap {$/;"	s
+bblist	sdisasm.h	/^struct bblist {$/;"	s
+bblist	sdisasm.h	/^typedef struct bblist bblist;$/;"	t	typeref:struct:bblist
+bbmap	sdisasm.h	/^typedef struct bbmap bbmap;$/;"	t	typeref:struct:bbmap
+border_esp	machine.h	/^  unsigned long border_esp;$/;"	m	struct:machine_s
+bucket_entry	machine.h	/^struct bucket_entry {$/;"	s
+bucket_entry	machine.h	/^typedef struct bucket_entry bucket_entry;$/;"	t	typeref:struct:bucket_entry
+byte	machine.h	/^  unsigned char byte;$/;"	m	union:modrm_union
+byte	machine.h	/^  unsigned char byte;$/;"	m	union:sib_union
+call_calls_fast_dispatch_bb	machine.h	/^  unsigned char *call_calls_fast_dispatch_bb;$/;"	m	struct:machine_s
+call_dir_cnt	machine.h	/^  unsigned long call_dir_cnt;$/;"	m	struct:pt_state
+call_hash_table	machine.h	/^  unsigned long call_hash_table[CALL_TABLE_SIZE];$/;"	m	struct:machine_s
+call_indr_cnt	machine.h	/^  unsigned long call_indr_cnt;$/;"	m	struct:pt_state
+cfast_dispatch_bb	machine.h	/^  unsigned char *cfast_dispatch_bb;$/;"	m	struct:machine_s
+chash_table	machine.h	/^  unsigned char *chash_table;   \/* Code hash table to perform indirect calls *\/$/;"	m	struct:machine_s
+cmp_byte	machine.h	/^  unsigned char cmp_byte;	\/* 1 *\/$/;"	m	struct:bb_header
+cold_cnt	machine.h	/^  unsigned long cold_cnt;$/;"	m	struct:pt_state
+comming_from_call_indirect	machine.h	/^  bool comming_from_call_indirect;$/;"	m	struct:machine_s
+continue_trace	xlate-helper.c	/^continue_trace(machine_t *M, decode_t *d, unsigned long jmp_destn)$/;"	f	file:
+cslow_dispatch_bb	machine.h	/^  unsigned char *cslow_dispatch_bb;$/;"	m	struct:machine_s
+curr_bb_entry	machine.h	/^  bb_entry *curr_bb_entry;$/;"	m	struct:machine_s
+curr_sec_index	machine.h	/^  unsigned int curr_sec_index;$/;"	m	struct:machine_s
+curr_signo	machine.h	/^  int curr_signo;$/;"	m	struct:pt_state
+d_mode	decode.h	175;"	d
+debug_all	debug.h	78;"	d
+debug_bb_directory	debug.h	53;"	d
+debug_call_ret_opt	debug.h	60;"	d
+debug_decode	debug.h	55;"	d
+debug_decode_eager_panic	debug.h	73;"	d
+debug_dump	debug.h	59;"	d
+debug_dump_load	debug.h	67;"	d
+debug_emits	debug.h	58;"	d
+debug_flags	debug.h	81;"	d
+debug_inline_emits	debug.h	57;"	d
+debug_input_scan	debug.h	54;"	d
+debug_lookup	debug.h	56;"	d
+debug_show_all_syscalls	debug.h	74;"	d
+debug_show_each_instr_trans	debug.h	65;"	d
+debug_show_each_trans_instr	debug.h	66;"	d
+debug_show_start_addr	debug.h	50;"	d
+debug_sig_init_exit	debug.h	76;"	d
+debug_signal_capture	debug.h	71;"	d
+debug_signal_delivery	debug.h	72;"	d
+debug_signal_note	debug.h	70;"	d
+debug_signal_registry	debug.h	69;"	d
+debug_sigsegv	debug.h	51;"	d
+debug_startup	debug.h	52;"	d
+debug_static_pass_addr_trans	debug.h	61;"	d
+debug_static_pass_trans	debug.h	62;"	d
+debug_thread_exit	debug.h	75;"	d
+debug_thread_init	debug.h	68;"	d
+debug_xlate	debug.h	63;"	d
+debug_xlate_pb	debug.h	64;"	d
+decode_eip	decode.h	/^  unsigned long decode_eip; \/* Start of the Guest Instruction *\/$/;"	m	struct:decode_s
+decode_s	decode.h	/^struct decode_s {$/;"	s
+decode_t	decode.h	/^typedef struct decode_s decode_t;$/;"	t	typeref:struct:decode_s
+disasm	decode.h	/^  char *disasm;			\/* dissassembly string *\/$/;"	m	struct:__anon2
+dispBytes	decode.h	/^  unsigned dispBytes;		\/* displacement length *\/$/;"	m	struct:decode_s
+displacement	decode.h	/^  long displacement;		\/* SIGNED displacement *\/$/;"	m	struct:decode_s
+do_decode	decode.c	/^do_decode(machine_t *M, decode_t *ds)$/;"	f
+do_decode_init	decode-init.c	/^do_decode_init(FILE *F, const OpCode *table, char *name, unsigned length)$/;"	f
+do_disasm	disasm.c	/^do_disasm(decode_t *ds, FILE *F)$/;"	f
+dump	machine.h	/^  bool dump;$/;"	m	struct:pt_state
+dump_to_file	emit.c	/^dump_to_file(machine_t *M, char *str)$/;"	f
+eAX	decode-table.c	129;"	d	file:
+eBP	decode-table.c	130;"	d	file:
+eBX	decode-table.c	131;"	d	file:
+eCX	decode-table.c	132;"	d	file:
+eDI	decode-table.c	133;"	d	file:
+eDX	decode-table.c	134;"	d	file:
+eSI	decode-table.c	135;"	d	file:
+eSP	decode-table.c	136;"	d	file:
+eax	machine.h	/^  unsigned long eax;$/;"	m	struct:fixregs_s
+eax	signals.h	/^  unsigned long eax;$/;"	m	struct:pushaf_s
+ebp	machine.h	/^  unsigned long ebp;$/;"	m	struct:fixregs_s
+ebp	signals.h	/^  unsigned long ebp;$/;"	m	struct:pushaf_s
+ebx	machine.h	/^  unsigned long ebx;$/;"	m	struct:fixregs_s
+ebx	signals.h	/^  unsigned long ebx;$/;"	m	struct:pushaf_s
+ecx	machine.h	/^  unsigned long ecx;$/;"	m	struct:fixregs_s
+ecx	signals.h	/^  unsigned long ecx;$/;"	m	struct:pushaf_s
+edi	machine.h	/^  unsigned long edi;$/;"	m	struct:fixregs_s
+edi	signals.h	/^  unsigned long edi;$/;"	m	struct:pushaf_s
+edx	machine.h	/^  unsigned long edx;$/;"	m	struct:fixregs_s
+edx	signals.h	/^  unsigned long edx;$/;"	m	struct:pushaf_s
+eflags	machine.h	/^  unsigned long eflags;$/;"	m	struct:machine_s
+eflags	signals.h	/^  unsigned long eflags;$/;"	m	struct:pushaf_s
+eip	machine.h	/^  unsigned long eip;$/;"	m	struct:fixregs_s
+emit_call_disp	emit.c	/^emit_call_disp(machine_t *M, decode_t *d)$/;"	f
+emit_call_near_mem	emit.c	/^emit_call_near_mem(machine_t *M, decode_t *d)$/;"	f
+emit_int	emit.c	/^emit_int(machine_t *M, decode_t *d)$/;"	f
+emit_jcond	emit.c	/^emit_jcond(machine_t *M, decode_t *d)$/;"	f
+emit_jmp	emit.c	/^emit_jmp(machine_t *M, decode_t *d)$/;"	f
+emit_jmp_near_mem	emit.c	/^emit_jmp_near_mem(machine_t *M, decode_t *d)$/;"	f
+emit_normal	emit.c	/^emit_normal(machine_t *M, decode_t *d)$/;"	f
+emit_other_jcond	emit.c	/^emit_other_jcond(machine_t *M, decode_t *d)$/;"	f
+emit_pusha_pushM_call	emit.c	/^emit_pusha_pushM_call(machine_t *M, void *proc) \/\/[len 19b]$/;"	f
+emit_ret	emit.c	/^emit_ret(machine_t *M, decode_t *d)$/;"	f
+emit_ret_Iw	emit.c	/^emit_ret_Iw(machine_t *M, decode_t *d)$/;"	f
+emit_syscall_handler	emit.c	/^emit_syscall_handler(machine_t *M, unsigned long which_syscall)$/;"	f
+emit_sysenter	emit.c	/^emit_sysenter(machine_t *M, decode_t *d)$/;"	f
+emitfn	decode.h	/^  const bool (*emitfn)(machine_t *M, decode_t *ds);$/;"	m	struct:decode_s
+emitter_name	decode.h	/^  const char *emitter_name;$/;"	m	struct:__anon2
+end	machine.h	/^  unsigned long end;$/;"	m	struct:sec_mem
+esi	machine.h	/^  unsigned long esi;$/;"	m	struct:fixregs_s
+esi	signals.h	/^  unsigned long esi;$/;"	m	struct:pushaf_s
+esp	machine.h	/^  unsigned long esp;$/;"	m	struct:fixregs_s
+esp	signals.h	/^  unsigned long esp;$/;"	m	struct:pushaf_s
+execve_unmapper	emit.c	/^   execve_unmapper(machine_t *M, fixregs_t regs)$/;"	f
+exit_stub	emit.c	/^exit_stub(machine_t *M)$/;"	f
+exit_unmapper	emit.c	/^exit_unmapper(machine_t *M)$/;"	f
+extramask	signals.h	/^  unsigned long extramask[_NSIG_WORDS-1];$/;"	m	struct:sigframe
+fast_dispatch_bb	machine.h	/^  unsigned char *fast_dispatch_bb;$/;"	m	struct:machine_s
+filler	machine.h	/^  unsigned char filler[3];	\/* 3 *\/$/;"	m	struct:bucket_entry
+fixregs	machine.h	/^  fixregs_t fixregs;$/;"	m	struct:machine_s
+fixregs_s	machine.h	/^struct fixregs_s {$/;"	s
+fixregs_t	machine.h	/^typedef struct fixregs_s fixregs_t;$/;"	t	typeref:struct:fixregs_s
+flag_effect	decode.h	/^  unsigned long flag_effect;	\/* Whether the instruction sources\/sinks\/both the flags *\/$/;"	m	struct:__anon2
+flags	decode.h	/^  unsigned flags;$/;"	m	struct:decode_s
+flags	machine.h	/^  unsigned long flags;$/;"	m	struct:bb_entry
+float_d8	decode-table.c	/^OpCode float_d8[16] = {$/;"	v
+float_d8	decode.h	/^CONST_TABLE OpCode float_d8[16];$/;"	v
+float_d8	intel-decode.new.c	/^CONST_TABLE OpCode float_d8 [16] = {$/;"	v
+float_d9	decode-table.c	/^OpCode float_d9[16] = {$/;"	v
+float_d9	decode.h	/^CONST_TABLE OpCode float_d9[16];$/;"	v
+float_d9	intel-decode.new.c	/^CONST_TABLE OpCode float_d9 [16] = {$/;"	v
+float_d9_2	decode-table.c	/^OpCode float_d9_2[8] = {$/;"	v
+float_d9_2	decode.h	/^CONST_TABLE OpCode float_d9_2[8];$/;"	v
+float_d9_2	intel-decode.new.c	/^CONST_TABLE OpCode float_d9_2 [8] = {$/;"	v
+float_d9_4	decode-table.c	/^OpCode float_d9_4[8] = {$/;"	v
+float_d9_4	decode.h	/^CONST_TABLE OpCode float_d9_4[8];$/;"	v
+float_d9_4	intel-decode.new.c	/^CONST_TABLE OpCode float_d9_4 [8] = {$/;"	v
+float_d9_5	decode-table.c	/^OpCode float_d9_5[8] = {$/;"	v
+float_d9_5	decode.h	/^CONST_TABLE OpCode float_d9_5[8];$/;"	v
+float_d9_5	intel-decode.new.c	/^CONST_TABLE OpCode float_d9_5 [8] = {$/;"	v
+float_d9_6	decode-table.c	/^OpCode float_d9_6[8] = {$/;"	v
+float_d9_6	decode.h	/^CONST_TABLE OpCode float_d9_6[8];$/;"	v
+float_d9_6	intel-decode.new.c	/^CONST_TABLE OpCode float_d9_6 [8] = {$/;"	v
+float_d9_7	decode-table.c	/^OpCode float_d9_7[8] = {$/;"	v
+float_d9_7	decode.h	/^CONST_TABLE OpCode float_d9_7[8];$/;"	v
+float_d9_7	intel-decode.new.c	/^CONST_TABLE OpCode float_d9_7 [8] = {$/;"	v
+float_da	decode-table.c	/^OpCode float_da[16] = {$/;"	v
+float_da	decode.h	/^CONST_TABLE OpCode float_da[16];$/;"	v
+float_da	intel-decode.new.c	/^CONST_TABLE OpCode float_da [16] = {$/;"	v
+float_da_5	decode-table.c	/^OpCode float_da_5[8] = {$/;"	v
+float_da_5	decode.h	/^CONST_TABLE OpCode float_da_5[8];$/;"	v
+float_da_5	intel-decode.new.c	/^CONST_TABLE OpCode float_da_5 [8] = {$/;"	v
+float_db	decode-table.c	/^OpCode float_db[16] = {$/;"	v
+float_db	decode.h	/^CONST_TABLE OpCode float_db[16];$/;"	v
+float_db	intel-decode.new.c	/^CONST_TABLE OpCode float_db [16] = {$/;"	v
+float_db_4	decode-table.c	/^OpCode float_db_4[8] = {$/;"	v
+float_db_4	decode.h	/^CONST_TABLE OpCode float_db_4[8];$/;"	v
+float_db_4	intel-decode.new.c	/^CONST_TABLE OpCode float_db_4 [8] = {$/;"	v
+float_dc	decode-table.c	/^OpCode float_dc[16] = {$/;"	v
+float_dc	decode.h	/^CONST_TABLE OpCode float_dc[16];$/;"	v
+float_dc	intel-decode.new.c	/^CONST_TABLE OpCode float_dc [16] = {$/;"	v
+float_dd	decode-table.c	/^OpCode float_dd[16] = {$/;"	v
+float_dd	decode.h	/^CONST_TABLE OpCode float_dd[16];$/;"	v
+float_dd	intel-decode.new.c	/^CONST_TABLE OpCode float_dd [16] = {$/;"	v
+float_de	decode-table.c	/^OpCode float_de[16] = {$/;"	v
+float_de	decode.h	/^CONST_TABLE OpCode float_de[16];$/;"	v
+float_de	intel-decode.new.c	/^CONST_TABLE OpCode float_de [16] = {$/;"	v
+float_de_3	decode-table.c	/^OpCode float_de_3[8] = {$/;"	v
+float_de_3	decode.h	/^CONST_TABLE OpCode float_de_3[8];$/;"	v
+float_de_3	intel-decode.new.c	/^CONST_TABLE OpCode float_de_3 [8] = {$/;"	v
+float_df	decode-table.c	/^OpCode float_df[16] = {$/;"	v
+float_df	decode.h	/^CONST_TABLE OpCode float_df[16];$/;"	v
+float_df	intel-decode.new.c	/^CONST_TABLE OpCode float_df [16] = {$/;"	v
+float_df_4	decode-table.c	/^OpCode float_df_4[8] = {$/;"	v
+float_df_4	decode.h	/^CONST_TABLE OpCode float_df_4[8];$/;"	v
+float_df_4	intel-decode.new.c	/^CONST_TABLE OpCode float_df_4 [8] = {$/;"	v
+fpstate	signals.h	/^  struct _fpstate fpstate;$/;"	m	struct:rt_sigframe	typeref:struct:rt_sigframe::_fpstate
+fpstate	signals.h	/^  struct _fpstate fpstate;$/;"	m	struct:sigframe	typeref:struct:sigframe::_fpstate
+frame	signals.h	/^  } frame;$/;"	m	struct:sigframe_s	typeref:union:sigframe_s::__anon5
+frameAddr	signals.h	/^  void *frameAddr;$/;"	m	struct:sigframe_s
+from	sdisasm.h	/^  unsigned long from;$/;"	m	struct:bbftmap
+getMfromMlist	signals.c	/^getMfromMlist(int pid)$/;"	f
+get_into_mem	disasm-driver.c	/^get_into_mem(bfd *abfd)$/;"	f
+group1_Eb_Ib	decode-table.c	/^OpCode group1_Eb_Ib[8] = {$/;"	v
+group1_Eb_Ib	decode.h	/^CONST_TABLE OpCode group1_Eb_Ib[8];$/;"	v
+group1_Eb_Ib	intel-decode.new.c	/^CONST_TABLE OpCode group1_Eb_Ib [8] = {$/;"	v
+group1_Ev_Ib	decode-table.c	/^OpCode group1_Ev_Ib[8] = {$/;"	v
+group1_Ev_Ib	decode.h	/^CONST_TABLE OpCode group1_Ev_Ib[8];$/;"	v
+group1_Ev_Ib	intel-decode.new.c	/^CONST_TABLE OpCode group1_Ev_Ib [8] = {$/;"	v
+group1_Ev_Iv	decode-table.c	/^OpCode group1_Ev_Iv[8] = {$/;"	v
+group1_Ev_Iv	decode.h	/^CONST_TABLE OpCode group1_Ev_Iv[8];$/;"	v
+group1_Ev_Iv	intel-decode.new.c	/^CONST_TABLE OpCode group1_Ev_Iv [8] = {$/;"	v
+group2_Eb_1	decode-table.c	/^OpCode group2_Eb_1[8] = {$/;"	v
+group2_Eb_1	decode.h	/^CONST_TABLE OpCode group2_Eb_1[8];$/;"	v
+group2_Eb_1	intel-decode.new.c	/^CONST_TABLE OpCode group2_Eb_1 [8] = {$/;"	v
+group2_Eb_CL	decode-table.c	/^OpCode group2_Eb_CL[8] = {$/;"	v
+group2_Eb_CL	decode.h	/^CONST_TABLE OpCode group2_Eb_CL[8];$/;"	v
+group2_Eb_CL	intel-decode.new.c	/^CONST_TABLE OpCode group2_Eb_CL [8] = {$/;"	v
+group2_Ev_1	decode-table.c	/^OpCode group2_Ev_1[8] = {$/;"	v
+group2_Ev_1	decode.h	/^CONST_TABLE OpCode group2_Ev_1[8];$/;"	v
+group2_Ev_1	intel-decode.new.c	/^CONST_TABLE OpCode group2_Ev_1 [8] = {$/;"	v
+group2_Ev_CL	decode-table.c	/^OpCode group2_Ev_CL[8] = {$/;"	v
+group2_Ev_CL	decode.h	/^CONST_TABLE OpCode group2_Ev_CL[8];$/;"	v
+group2_Ev_CL	intel-decode.new.c	/^CONST_TABLE OpCode group2_Ev_CL [8] = {$/;"	v
+group2a_Eb_Ib	decode-table.c	/^OpCode group2a_Eb_Ib[8] = {$/;"	v
+group2a_Eb_Ib	decode.h	/^CONST_TABLE OpCode group2a_Eb_Ib[8];$/;"	v
+group2a_Eb_Ib	intel-decode.new.c	/^CONST_TABLE OpCode group2a_Eb_Ib [8] = {$/;"	v
+group2a_Ev_Ib	decode-table.c	/^OpCode group2a_Ev_Ib[8] = {$/;"	v
+group2a_Ev_Ib	decode.h	/^CONST_TABLE OpCode group2a_Ev_Ib[8];$/;"	v
+group2a_Ev_Ib	intel-decode.new.c	/^CONST_TABLE OpCode group2a_Ev_Ib [8] = {$/;"	v
+group3b	decode-table.c	/^OpCode group3b[8] = {$/;"	v
+group3b	decode.h	/^CONST_TABLE OpCode group3b[8];$/;"	v
+group3b	intel-decode.new.c	/^CONST_TABLE OpCode group3b [8] = {$/;"	v
+group3v	decode-table.c	/^OpCode group3v[8] = {$/;"	v
+group3v	decode.h	/^CONST_TABLE OpCode group3v[8];$/;"	v
+group3v	intel-decode.new.c	/^CONST_TABLE OpCode group3v [8] = {$/;"	v
+group8_Ev_Ib	decode-table.c	/^OpCode group8_Ev_Ib[8] = {$/;"	v
+group8_Ev_Ib	decode.h	/^CONST_TABLE OpCode group8_Ev_Ib[8];$/;"	v
+group8_Ev_Ib	intel-decode.new.c	/^CONST_TABLE OpCode group8_Ev_Ib [8] = {$/;"	v
+guestOld_saPtr	machine.h	/^  k_sigaction *guestOld_saPtr; $/;"	m	struct:pt_state
+guestOld_shPtr	machine.h	/^  sighandler_t *guestOld_shPtr;$/;"	m	struct:pt_state
+guest_saPtr	machine.h	/^  k_sigaction *guest_saPtr; $/;"	m	struct:pt_state
+guest_shPtr	machine.h	/^  sighandler_t *guest_shPtr;$/;"	m	struct:pt_state
+guest_start_eip	machine.h	/^  unsigned long guest_start_eip;$/;"	m	struct:machine_s
+handle_sigsegv	xlcore.c	/^handle_sigsegv(int param, struct sigcontext ctx)$/;"	f
+hash_nodes_cnt	machine.h	/^  unsigned long hash_nodes_cnt;$/;"	m	struct:pt_state
+hash_table	machine.h	/^  unsigned char *hash_table;   \/* Code hash table to perform indirect jumps *\/$/;"	m	struct:machine_s
+id	machine.h	/^  unsigned int id; $/;"	m	struct:sec_mem
+imm16	decode.h	/^  long imm16;			\/* used in ENTER, RET *\/$/;"	m	struct:decode_s
+immediate	decode.h	/^  long immediate;		\/* SIGNED immediate *\/$/;"	m	struct:decode_s
+index	decode.h	/^  unsigned long index;		\/* sanity check *\/$/;"	m	struct:__anon2
+index	machine.h	/^    unsigned char index : 3;$/;"	m	struct:sib_union::__anon4
+indirDX	decode-table.c	127;"	d	file:
+info	signals.h	/^  struct siginfo info;$/;"	m	struct:rt_sigframe	typeref:struct:rt_sigframe::siginfo
+init_signal_trans	xlcore.c	/^init_signal_trans(unsigned long program_start, machine_t *parentM)$/;"	f
+init_thread_trans	xlcore.c	/^init_thread_trans(unsigned long program_start)$/;"	f
+init_translator	xlcore.c	/^init_translator(unsigned long program_start)$/;"	f
+inline_emit_normal	xlcore.c	/^inline_emit_normal(machine_t *M, decode_t *d)$/;"	f	file:
+inmem	machine.h	/^  unsigned char *inmem;$/;"	m	struct:sec_mem
+instr	decode.h	/^  unsigned char *instr;	 \/* Pointer to the instruction AFTER ALL the $/;"	m	struct:decode_s
+instr_stream	decode-tester.c	/^char instr_stream[] = {0xf2, 0x0f, 0x5c, 0xcd,$/;"	v
+isBlacklisted	sdisasm.h	/^  bool isBlacklisted;$/;"	m	struct:bblist
+ismmaped	machine.h	/^  bool ismmaped;$/;"	m	struct:machine_s
+istream_nextByte	machine.h	407;"	d
+istream_nextByte	machine.h	417;"	d
+istream_nextLong	machine.h	409;"	d
+istream_nextLong	machine.h	425;"	d
+istream_nextWord	machine.h	408;"	d
+istream_nextWord	machine.h	421;"	d
+istream_peekByte	machine.h	403;"	d
+istream_peekByte	machine.h	413;"	d
+istream_peekLong	machine.h	405;"	d
+istream_peekLong	machine.h	415;"	d
+istream_peekWord	machine.h	404;"	d
+istream_peekWord	machine.h	414;"	d
+jmp_byte	machine.h	/^  unsigned char jmp_byte;	\/* 1 *\/$/;"	m	struct:bb_header
+jmp_byte	machine.h	/^  unsigned char jmp_byte;	\/* 1 *\/$/;"	m	struct:bucket_entry
+jmp_cond_cnt	machine.h	/^  unsigned long jmp_cond_cnt;$/;"	m	struct:pt_state
+jmp_dir_cnt	machine.h	/^  unsigned long jmp_dir_cnt;$/;"	m	struct:pt_state
+jmp_indr_cnt	machine.h	/^  unsigned long jmp_indr_cnt;$/;"	m	struct:pt_state
+jmp_target	machine.h	/^  unsigned char *jmp_target;$/;"	m	struct:machine_s
+jne_byte1	machine.h	/^  unsigned char jne_byte1;	\/* 1 *\/$/;"	m	struct:bb_header
+jne_byte2	machine.h	/^  unsigned char jne_byte2;	\/* 1 *\/$/;"	m	struct:bb_header
+k_sigaction	signals.h	/^typedef struct sigaction k_sigaction;$/;"	t	typeref:struct:sigaction
+k_sigcontext	signals.h	/^typedef struct sigcontext k_sigcontext;$/;"	t	typeref:struct:sigcontext
+log_entry	util.c	/^log_entry(const char *fmt, ...)$/;"	f
+lookup_bb_eip	xlcore.c	/^lookup_bb_eip(machine_t *M, unsigned long src_eip)$/;"	f
+lookup_table	machine.h	/^  bb_entry* lookup_table[LOOKUP_TABLE_SIZE]; \/* BBdirectory *\/$/;"	m	struct:machine_s
+mach_showregs	machine.c	/^mach_showregs(char c, machine_t *M)$/;"	f
+machine_s	machine.h	/^struct machine_s {$/;"	s
+machine_t	machine.h	/^typedef struct machine_s machine_t;$/;"	t	typeref:struct:machine_s
+main	decode-init.c	/^main()$/;"	f
+main	decode-tester.c	/^main()$/;"	f
+main	disasm-driver.c	/^main(int argc, char **argv)$/;"	f
+main	perf.c	/^main(int argc, char *argv[])$/;"	f
+main	sdisasm.c	/^int main(int argc, char *argv[])$/;"	f
+make_bb_entry	xlate-helper.c	/^make_bb_entry(machine_t *M, unsigned long src, unsigned long dest, unsigned long p) 						$/;"	f	file:
+maskAllSignals	emit.c	/^   maskAllSignals(machine_t *M)$/;"	f	file:
+maskAllSignals	signals.c	/^maskAllSignals(sigset_t *oldSet)$/;"	f	file:
+masterSigHandler	signals.c	/^masterSigHandler(int signum, volatile struct sigcontext ctx)$/;"	f
+max_nodes_trav_cnt	machine.h	/^  unsigned long max_nodes_trav_cnt;$/;"	m	struct:pt_state
+mem_decode_eip	decode.h	/^  unsigned long mem_decode_eip; \/* Start of the in-memort COPY $/;"	m	struct:decode_s
+mem_next_eip	machine.h	/^  unsigned long mem_next_eip;  \/* Actual  pointer to the in-memory copy$/;"	m	struct:machine_s
+mod	machine.h	/^    unsigned char mod : 2;$/;"	m	struct:modrm_union::__anon3
+modrm	decode.h	/^  modrm_union modrm;$/;"	m	struct:decode_s
+modrm_regs	decode.h	/^  unsigned long modrm_regs;$/;"	m	struct:decode_s
+modrm_union	machine.h	/^typedef union modrm_union modrm_union;$/;"	t	typeref:union:modrm_union
+modrm_union	machine.h	/^union modrm_union {$/;"	u
+nInstr	machine.h	/^  unsigned long nInstr;$/;"	m	struct:bb_entry
+nTrInstr	machine.h	/^  unsigned long nTrInstr; \/* No. of instructions in the current trace *\/$/;"	m	struct:machine_s
+name	machine.h	/^  const char *name;$/;"	m	struct:sec_mem
+need_sib	decode.h	/^  unsigned char need_sib;$/;"	m	struct:decode_s
+next	machine.h	/^  bb_entry *next;$/;"	m	struct:bb_entry
+next	signals.h	/^  struct Mlist_s *next;$/;"	m	struct:Mlist_s	typeref:struct:Mlist_s::Mlist_s
+next_bb	machine.h	/^  unsigned long next_bb;	\/* 4 *\/$/;"	m	struct:bb_header
+next_eip	machine.h	/^  unsigned long next_eip;      \/* Logical Next EIP for the decoder *\/$/;"	m	struct:machine_s
+ngroup4	decode-table.c	/^OpCode ngroup4[8] = {$/;"	v
+ngroup4	decode.h	/^CONST_TABLE OpCode ngroup4[8];$/;"	v
+ngroup4	intel-decode.new.c	/^CONST_TABLE OpCode ngroup4 [8] = {$/;"	v
+ngroup5	decode-table.c	/^OpCode ngroup5[8] = {$/;"	v
+ngroup5	decode.h	/^CONST_TABLE OpCode ngroup5[8];$/;"	v
+ngroup5	intel-decode.new.c	/^CONST_TABLE OpCode ngroup5 [8] = {$/;"	v
+ngroup6	decode-table.c	/^OpCode ngroup6[8] = {$/;"	v
+ngroup6	decode.h	/^CONST_TABLE OpCode ngroup6[8];$/;"	v
+ngroup6	intel-decode.new.c	/^CONST_TABLE OpCode ngroup6 [8] = {$/;"	v
+ngroup7	decode-table.c	/^OpCode ngroup7[8] = {$/;"	v
+ngroup7	decode.h	/^CONST_TABLE OpCode ngroup7[8];$/;"	v
+ngroup7	intel-decode.new.c	/^CONST_TABLE OpCode ngroup7 [8] = {$/;"	v
+ngroup9	decode-table.c	/^OpCode ngroup9[8] = {$/;"	v
+ngroup9	decode.h	/^CONST_TABLE OpCode ngroup9[8];$/;"	v
+ngroup9	intel-decode.new.c	/^CONST_TABLE OpCode ngroup9 [8] = {$/;"	v
+no_of_bbs	machine.h	/^  unsigned long int no_of_bbs;$/;"	m	struct:machine_s
+no_of_prefixes	decode.h	/^  unsigned char no_of_prefixes;$/;"	m	struct:decode_s
+nopbyte0	decode-table.c	/^OpCode nopbyte0[256] = {$/;"	v
+nopbyte0	decode.h	/^CONST_TABLE OpCode nopbyte0[256];$/;"	v
+nopbyte0	intel-decode.new.c	/^CONST_TABLE OpCode nopbyte0 [256] = {$/;"	v
+normal_cnt	machine.h	/^  unsigned long normal_cnt; $/;"	m	struct:pt_state
+note_patch	xlate-helper.c	/^note_patch(machine_t *M, unsigned char *at, unsigned char *to, unsigned long proc_addr)$/;"	f	file:
+nsections	machine.h	/^  unsigned long nsections;$/;"	m	struct:machine_s
+offsetof	machine.h	432;"	d
+old	machine.h	/^  k_sigaction old;$/;"	m	struct:sa_table_s
+opstate	decode.h	/^  unsigned opstate;$/;"	m	struct:decode_s
+pEntry	decode.h	/^  const void *pEntry;		\/* for disassembly *\/$/;"	m	struct:decode_s
+pInstr	decode.h	/^  unsigned char *pInstr; \/* End of Instruction pointer. $/;"	m	struct:decode_s
+p_mode	decode.h	176;"	d
+panic	util.c	/^panic(const char *fmt, ...)$/;"	f
+panic_decode_fail	xlcore.c	/^panic_decode_fail(unsigned long eip, unsigned long bAddr)$/;"	f	file:
+parts	machine.h	/^  } parts; $/;"	m	union:modrm_union	typeref:struct:modrm_union::__anon3
+parts	machine.h	/^  } parts;$/;"	m	union:sib_union	typeref:struct:sib_union::__anon4
+patch_array	machine.h	/^  patch_entry patch_array[PATCH_ARRAY_LEN]; \/* Patch array that will be filled up by all the$/;"	m	struct:machine_s
+patch_count	machine.h	/^  unsigned long patch_count;	\/* No. of patch points encountered in this basic-block *\/$/;"	m	struct:machine_s
+patch_entry	machine.h	/^struct patch_entry {$/;"	s
+patch_entry	machine.h	/^typedef struct patch_entry patch_entry;$/;"	t	typeref:struct:patch_entry
+patch_point	machine.h	/^  unsigned char *patch_point;$/;"	m	struct:machine_s
+patch_st	disasm-driver.c	/^struct patch_st {$/;"	s	file:
+pid	signals.h	/^  int pid;$/;"	m	struct:Mlist_s
+pinfo	signals.h	/^  struct siginfo *pinfo;$/;"	m	struct:rt_sigframe	typeref:struct:rt_sigframe::siginfo
+pop_eax	machine.h	/^  unsigned char pop_eax;	\/* 1 *\/$/;"	m	struct:bb_header
+pop_ebx	machine.h	/^  unsigned char pop_ebx;	\/* 1 *\/$/;"	m	struct:bb_header
+popf_byte	machine.h	/^  unsigned char popf_byte;	\/* 1 *\/$/;"	m	struct:bb_header
+prefix	intel-decode.new.c	8;"	d	file:
+pretcode	signals.h	/^  char *pretcode;$/;"	m	struct:rt_sigframe
+pretcode	signals.h	/^  char *pretcode;$/;"	m	struct:sigframe
+prevM	machine.h	/^  machine_t *prevM; \/\/ Parent Mstate$/;"	m	struct:machine_s
+prev_BBcache	machine.h	/^  unsigned char *prev_BBcache;$/;"	m	struct:bb_link
+prev_BBdirectory	machine.h	/^  bb_entry **prev_BBdirectory;$/;"	m	struct:bb_link
+prev_bb_entry_nodes	machine.h	/^  bb_entry *prev_bb_entry_nodes;$/;"	m	struct:bb_link
+prev_call_table	machine.h	/^  unsigned long *prev_call_table;$/;"	m	struct:bb_link
+prev_patch_array	machine.h	/^  unsigned long prev_patch_array;$/;"	m	struct:patch_entry
+proc_addr	disasm-driver.c	/^  unsigned long proc_addr;$/;"	m	struct:patch_st	file:
+proc_addr	machine.h	/^  unsigned long proc_addr;$/;"	m	struct:patch_entry
+proc_entry	machine.h	/^  unsigned long proc_entry;$/;"	m	struct:bb_entry
+ptState	machine.h	/^  pt_state *ptState;$/;"	m	struct:machine_s
+pt_state	machine.h	/^struct pt_state {$/;"	s
+pt_state	machine.h	/^typedef struct pt_state pt_state;$/;"	t	typeref:struct:pt_state
+ptr	decode.h	/^  CONST_TABLE void *ptr;$/;"	m	struct:__anon2
+puc	signals.h	/^  void *puc;$/;"	m	struct:rt_sigframe
+pushaf_s	signals.h	/^struct pushaf_s {$/;"	s
+pushaf_t	signals.h	/^typedef struct pushaf_s pushaf_t;$/;"	t	typeref:struct:pushaf_s
+put	util.c	/^put(const char *fmt, ...)$/;"	f
+put_stats	perf.c	/^put_stats(const char *str, struct rusage *usage)$/;"	f	file:
+q_mode	decode.h	178;"	d
+read_timer	perf.h	/^read_timer()$/;"	f
+reg	machine.h	/^    unsigned char reg : 3;$/;"	m	struct:modrm_union::__anon3
+reg_AH	decode.h	183;"	d
+reg_AL	decode.h	184;"	d
+reg_BH	decode.h	185;"	d
+reg_BL	decode.h	186;"	d
+reg_CH	decode.h	187;"	d
+reg_CL	decode.h	188;"	d
+reg_CS	decode.h	204;"	d
+reg_DH	decode.h	189;"	d
+reg_DL	decode.h	190;"	d
+reg_DS	decode.h	206;"	d
+reg_DX	decode.h	191;"	d
+reg_EAX	decode.h	194;"	d
+reg_EBP	decode.h	199;"	d
+reg_EBX	decode.h	195;"	d
+reg_ECX	decode.h	196;"	d
+reg_EDI	decode.h	200;"	d
+reg_EDX	decode.h	197;"	d
+reg_ES	decode.h	203;"	d
+reg_ESI	decode.h	201;"	d
+reg_ESP	decode.h	198;"	d
+reg_FS	decode.h	207;"	d
+reg_GS	decode.h	208;"	d
+reg_SS	decode.h	205;"	d
+reg_indirDX	decode.h	192;"	d
+rel	machine.h	/^  unsigned long rel;		\/* 4 *\/$/;"	m	struct:bucket_entry
+remFromMlist	signals.c	/^remFromMlist(int pid)$/;"	f
+reserved	intel-decode.new.c	7;"	d	file:
+restoreMask	signals.c	/^restoreMask(sigset_t *oldSet)$/;"	f
+restoreSignals	emit.c	/^restoreSignals(machine_t *M)$/;"	f	file:
+ret_Iw_cnt	machine.h	/^  unsigned long ret_Iw_cnt;$/;"	m	struct:pt_state
+ret_calls_fast_dispatch_bb	machine.h	/^  unsigned char *ret_calls_fast_dispatch_bb;$/;"	m	struct:machine_s
+ret_cnt	machine.h	/^  unsigned long ret_cnt;$/;"	m	struct:pt_state
+ret_miss_cnt	machine.h	/^  unsigned long ret_miss_cnt;$/;"	m	struct:pt_state
+ret_ret_miss_cnt	machine.h	/^  unsigned long ret_ret_miss_cnt;$/;"	m	struct:pt_state
+retcode	signals.h	/^  char retcode[8];$/;"	m	struct:rt_sigframe
+retcode	signals.h	/^  char retcode[8];$/;"	m	struct:sigframe
+rm	machine.h	/^    unsigned char rm : 3;$/;"	m	struct:modrm_union::__anon3
+rt_sigframe	signals.h	/^struct rt_sigframe$/;"	s
+rt_sigreturn_syscall	emit.c	/^rt_sigreturn_syscall(machine_t *M, fixregs_t regs)$/;"	f
+rtsf	signals.h	/^    struct rt_sigframe rtsf;$/;"	m	union:sigframe_s::__anon5	typeref:struct:sigframe_s::__anon5::rt_sigframe
+run	perf.c	/^run(const char* runstr, struct rusage *usage, char *argv[])$/;"	f	file:
+s_call_dir_cnt	machine.h	/^  unsigned long s_call_dir_cnt;$/;"	m	struct:pt_state
+s_call_indr_cnt	machine.h	/^  unsigned long s_call_indr_cnt;$/;"	m	struct:pt_state
+s_jmp_cond_cnt	machine.h	/^  unsigned long s_jmp_cond_cnt;$/;"	m	struct:pt_state
+s_jmp_dir_cnt	machine.h	/^  unsigned long s_jmp_dir_cnt;$/;"	m	struct:pt_state
+s_jmp_indr_cnt	machine.h	/^  unsigned long s_jmp_indr_cnt;$/;"	m	struct:pt_state
+s_mode	decode.h	177;"	d
+s_normal_cnt	machine.h	/^  unsigned long s_normal_cnt; $/;"	m	struct:pt_state
+s_ret_Iw_cnt	machine.h	/^  unsigned long s_ret_Iw_cnt;$/;"	m	struct:pt_state
+s_ret_cnt	machine.h	/^  unsigned long s_ret_cnt;$/;"	m	struct:pt_state
+s_total_cnt	machine.h	/^  unsigned long long s_total_cnt;$/;"	m	struct:pt_state
+sa_table	machine.h	/^  sa_table_t sa_table[NSIGNALS]; \/\/ sigaction corresponding to each signal$/;"	m	struct:pt_state
+sa_table_s	machine.h	/^struct sa_table_s {$/;"	s
+sa_table_t	machine.h	/^typedef struct sa_table_s sa_table_t;$/;"	t	typeref:struct:sa_table_s
+sc	signals.h	/^  struct sigcontext sc;$/;"	m	struct:sigframe	typeref:struct:sigframe::sigcontext
+score	sdisasm.h	/^  unsigned long score;$/;"	m	struct:bblist
+sec_info	machine.h	/^  sec_mem *sec_info;$/;"	m	struct:machine_s
+sec_mem	machine.h	/^struct sec_mem {$/;"	s
+sec_mem	machine.h	/^typedef struct sec_mem sec_mem;$/;"	t	typeref:struct:sec_mem
+sf	signals.h	/^    struct sigframe sf;$/;"	m	union:sigframe_s::__anon5	typeref:struct:sigframe_s::__anon5::sigframe
+sherpa	disasm-driver.c	/^using namespace sherpa;$/;"	v
+show_asm_arg	disasm.c	/^show_asm_arg(decode_t *ds, unsigned a, FILE *F) $/;"	f	file:
+show_modrm_arg	disasm.c	/^show_modrm_arg(decode_t *ds, unsigned a, FILE *F)$/;"	f	file:
+show_sections	disasm-driver.c	/^show_sections(bfd *abfd, asection *sec, void *nul)$/;"	f
+show_sib_arg	disasm.c	/^show_sib_arg(decode_t *ds, unsigned a, FILE *F)$/;"	f	file:
+sib	decode.h	/^  sib_union sib;$/;"	m	struct:decode_s
+sib_union	machine.h	/^typedef union sib_union sib_union;$/;"	t	typeref:union:sib_union
+sib_union	machine.h	/^union sib_union {$/;"	u
+sieve_header	machine.h	/^  bb_header* sieve_header;$/;"	m	struct:bb_entry
+sig	signals.h	/^  int sig;$/;"	m	struct:rt_sigframe
+sig	signals.h	/^  int sig;$/;"	m	struct:sigframe
+sig_dispatch_bb	machine.h	/^  unsigned char *sig_dispatch_bb;$/;"	m	struct:machine_s
+sig_names	machine.h	/^const char const * const* sig_names;$/;"	v
+sig_names	sig-names.c	/^const char const * const* sig_names = _sig_names;$/;"	v
+sigaction_syscall_post	emit.c	/^sigaction_syscall_post(machine_t *M, fixregs_t regs)$/;"	f
+sigaction_syscall_pre	emit.c	/^sigaction_syscall_pre(machine_t *M, fixregs_t regs)$/;"	f
+sigaltstack_syscall_post	emit.c	/^sigaltstack_syscall_post(machine_t *M, fixregs_t regs)$/;"	f
+sigaltstack_syscall_pre	emit.c	/^sigaltstack_syscall_pre(machine_t *M, fixregs_t regs)$/;"	f
+sigframe	signals.h	/^struct sigframe$/;"	s
+sigframe_s	signals.h	/^struct sigframe_s {$/;"	s
+sigframe_t	signals.h	/^typedef struct sigframe_s sigframe_t;$/;"	t	typeref:struct:sigframe_s
+sighandler_t	signals.h	/^typedef void (*sighandler_t)(int);$/;"	t
+signal_syscall_post	emit.c	/^signal_syscall_post(machine_t *M, fixregs_t regs)$/;"	f
+signal_syscall_pre	emit.c	/^signal_syscall_pre(machine_t *M, fixregs_t regs)$/;"	f
+sigreturn_syscall	emit.c	/^sigreturn_syscall(machine_t *M, fixregs_t regs)$/;"	f
+simple_patch	xlcore.c	/^simple_patch(machine_t *M, unsigned long at, unsigned long addr)$/;"	f	file:
+slow_dispatch_bb	machine.h	/^  unsigned char *slow_dispatch_bb;$/;"	m	struct:machine_s
+src_bb_eip	machine.h	/^  unsigned long src_bb_eip;$/;"	m	struct:bb_entry
+src_bb_end_eip	machine.h	/^  unsigned long src_bb_end_eip;$/;"	m	struct:bb_entry
+ss	machine.h	/^    unsigned char ss : 2;$/;"	m	struct:sib_union::__anon4
+start	machine.h	/^  unsigned long start;$/;"	m	struct:sec_mem
+start_eip	machine.h	/^  unsigned long start_eip;	\/* 4 *\/$/;"	m	struct:bb_header
+startup_slow_dispatch_bb	machine.h	/^  unsigned char *startup_slow_dispatch_bb;$/;"	m	struct:machine_s
+syscall_names	machine.h	/^const char const * const* syscall_names;$/;"	v
+syscall_names	syscall-names.c	/^const char const * const* syscall_names = _syscall_names;$/;"	v
+syscall_sigset	machine.h	/^  sigset_t syscall_sigset;$/;"	m	struct:machine_s
+syscall_stub	emit.c	/^syscall_stub(machine_t *M, fixregs_t regs)$/;"	f
+target	disasm-driver.c	/^char *target = "i686-pc-linux-gnu";$/;"	v
+temp	machine.h	/^  unsigned long temp;$/;"	m	struct:machine_s
+theMachine	xlcore.c	/^machine_t theMachine;$/;"	v
+thePtState	xlcore.c	/^pt_state thePtState;$/;"	v
+this_bb	machine.h	/^  unsigned long this_bb;	\/* 4 *\/$/;"	m	struct:bb_header
+this_bbStart	machine.h	/^  unsigned long this_bbStart;$/;"	m	struct:machine_s
+this_start_eip	machine.h	/^  unsigned long this_start_eip;$/;"	m	struct:machine_s
+to	disasm-driver.c	/^  unsigned long to;$/;"	m	struct:patch_st	file:
+to	machine.h	/^  unsigned char *to;$/;"	m	struct:patch_entry
+to	sdisasm.h	/^  unsigned long to;$/;"	m	struct:bbftmap
+tot_time	machine.h	/^  unsigned long long tot_time;$/;"	m	struct:pt_state
+total_cnt	machine.h	/^  unsigned long long total_cnt;$/;"	m	struct:pt_state
+touch_pages	xlcore.c	/^touch_pages(machine_t *M)$/;"	f	file:
+trace_next	machine.h	/^  bb_entry *trace_next;$/;"	m	struct:bb_entry
+trans_bb_eip	machine.h	/^  unsigned long trans_bb_eip;$/;"	m	struct:bb_entry
+trans_bb_end_eip	machine.h	/^  unsigned long trans_bb_end_eip;$/;"	m	struct:bb_entry
+trans_time	machine.h	/^  unsigned long long trans_time;$/;"	m	struct:pt_state
+translate_instr	xlcore.c	/^translate_instr(machine_t *M, decode_t *ds)$/;"	f
+trigger	machine.h	/^  bool trigger; \/\/ Keep the compiler happy$/;"	m	struct:pt_state
+twoByteOpcodes	decode-table.c	/^OpCode twoByteOpcodes[256] = {$/;"	v
+twoByteOpcodes	decode.h	/^CONST_TABLE OpCode twoByteOpcodes[256];$/;"	v
+twoByteOpcodes	intel-decode.new.c	/^CONST_TABLE OpCode twoByteOpcodes [256] = {$/;"	v
+uc	signals.h	/^  struct ucontext uc;$/;"	m	struct:rt_sigframe	typeref:struct:rt_sigframe::ucontext
+ulong	disasm-driver.c	/^typedef unsigned long ulong;$/;"	t	file:
+update_mem_next_eip	xlcore.c	/^update_mem_next_eip(machine_t *M)$/;"	f	file:
+v_mode	decode.h	173;"	d
+version	emit.h	/^  unsigned long version;$/;"	m	struct:bb_dump_header
+w_mode	decode.h	174;"	d
+x_mode	decode.h	179;"	d
+xlate_bb	xlcore.c	/^xlate_bb(machine_t *M)$/;"	f
+xlate_for_csieve	chtable.c	/^xlate_for_csieve (machine_t *M)$/;"	f
+xlate_for_patch_block	xlcore.c	/^xlate_for_patch_block(machine_t *M) $/;"	f
+xlate_for_sieve	xlcore.c	/^xlate_for_sieve (machine_t *M)$/;"	f
+y_mode	decode.h	180;"	d
+z_mode	decode.h	181;"	d

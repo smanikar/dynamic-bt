@@ -1,0 +1,1 @@
+PANIC: Illegal Instruction -- Decode had failed! eip = 30e9bc byte = 30e9bc

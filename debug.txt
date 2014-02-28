@@ -1,0 +1,4 @@
+VDebug rules!... 
+Initial eip   = 116d54
+
+Undefined opcode:  F 3A at 00C6B9B9

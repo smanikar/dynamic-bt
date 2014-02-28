@@ -1,0 +1,83 @@
+Process 			: /bin/ls
+         Static Statistics
+Total No. of Instructions 	= 14855  100%
+Normal Instructions 		= 11692  78.708%
+Conditional Jump 		= 1885  12.689%
+Direct Jump 			= 316  2.127%
+Indirect Jump 			= 50  0.337%
+Direct Call			= 561  3.777%
+Indirect Call 			= 78  0.525%
+Return 				= 268  1.804%
+Return IW 			= 5  0.034%
+         Dynamic Statistics
+Total No. of Instructions 	= 0  100%
+Normal Instructions 		= 0  nan%
+Conditional Jump 		= 0  nan%
+Direct Jump 			= 0  nan%
+Indirect Jump 			= 0  nan%
+Direct Call 			= 0  nan%
+Indirect Call 			= 0  nan%
+Return 				= 0  nan%
+Return IW 			= 0  nan%
+         Basic-Block Statistics
+Total No. of BBs 		= 3849
+No. of BBs with cmp-jmp headers = 195 5.066%
+BBCache: Total size 		= 4194304
+BBCache: No. of Bytes used 	= 494352 11.786%
+Process 			: /bin/ls
+         Static Statistics
+Total No. of Instructions 	= 14855  100%
+Normal Instructions 		= 11692  78.708%
+Conditional Jump 		= 1885  12.689%
+Direct Jump 			= 316  2.127%
+Indirect Jump 			= 50  0.337%
+Direct Call			= 561  3.777%
+Indirect Call 			= 78  0.525%
+Return 				= 268  1.804%
+Return IW 			= 5  0.034%
+         Dynamic Statistics
+Total No. of Instructions 	= 0  100%
+Normal Instructions 		= 0  nan%
+Conditional Jump 		= 0  nan%
+Direct Jump 			= 0  nan%
+Indirect Jump 			= 0  nan%
+Direct Call 			= 0  nan%
+Indirect Call 			= 0  nan%
+Return 				= 0  nan%
+Return IW 			= 0  nan%
+         Basic-Block Statistics
+Total No. of BBs 		= 3849
+No. of BBs with cmp-jmp headers = 195 5.066%
+BBCache: Total size 		= 4194304
+BBCache: No. of Bytes used 	= 494352 11.786%
+Process 			: /bin/ls
+         Static Statistics
+Total No. of Instructions 	= 14855  100%
+Normal Instructions 		= 11692  78.708%
+Conditional Jump 		= 1885  12.689%
+Direct Jump 			= 316  2.127%
+Indirect Jump 			= 50  0.337%
+Direct Call			= 561  3.777%
+Indirect Call 			= 78  0.525%
+Return 				= 268  1.804%
+Return IW 			= 5  0.034%
+         Dynamic Statistics
+Total No. of Instructions 	= 0  100%
+Normal Instructions 		= 0  nan%
+Conditional Jump 		= 0  nan%
+Direct Jump 			= 0  nan%
+Indirect Jump 			= 0  nan%
+Direct Call 			= 0  nan%
+Indirect Call 			= 0  nan%
+Return 				= 0  nan%
+Return IW 			= 0  nan%
+         Basic-Block Statistics
+Returns going to wrong call site = 0 [nan%]
+Returns going to fast-dispatch   = 0 [nan%]
+Returns missed Optimization = 0 [nan%]
+126 / 256 = 49.219% buckets changed
+BBs with COLD pe = 548 / 3849 [14.237%]
+Total No. of BBs 		= 3849
+No. of BBs with cmp-jmp headers = 195 5.066%
+BBCache: Total size 		= 4194304
+BBCache: No. of Bytes used 	= 494415 11.788%
